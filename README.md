@@ -47,10 +47,21 @@ cluster = LocalCluster()
 client = Client(cluster)
 
 Results
-Model	Accuracy	            F1 Score	Time (s)	Speed-Up
 
-Random Forest (sequential)	0.5898	  0.3078	  17.97	–
+Model	Accuracy	            
 
-Random Forest (Dask)	      0.5898	  0.3078	  2.14	≈ 88% faster
+## Random Forest (sequential)
+1. F1 Score: 0.5898
+
+2. Time (s): 0.3078
+
+3. Speed-Up: 17.97	
+
+## Random Forest (Dask)
+1. F1 Score: 0.5898
+
+2. Time (s): 0.3078
+
+3. Speed-Up: 2.14	≈ 88% faster
 
 
